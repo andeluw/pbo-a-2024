@@ -1,4 +1,4 @@
-// Abstract class (Abstraction)
+// Abstract class (Class dan Abstraction)
 abstract class LibraryItem {
     private String title;
     private String id;
