@@ -1,1 +1,15 @@
-**/*.class
+# Maven
+target/
+*.log
+*.class
+
+# VSCode
+.vscode/
+
+# Eclipse
+*.classpath
+*.project
+.settings/
+
+# Other IDEs
+.idea/
