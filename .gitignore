@@ -13,3 +13,6 @@ target/
 
 # Other IDEs
 .idea/
+
+*.bluej
+*.ctxt
