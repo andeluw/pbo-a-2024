@@ -1,5 +1,5 @@
 public class CommandWords {
-  private static final String allowedCommands[] = { "go", "quit", "look", "help" };
+  private static final String allowedCommands[] = { "go", "quit", "help" };
 
   public CommandWords() {
 
