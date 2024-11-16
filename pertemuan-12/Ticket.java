@@ -20,6 +20,7 @@ public class Ticket {
   }
 
   public void printFacilities() {
+    System.out.println("Facilities:");
     for (int i = 0; i < facilities.size(); i++) {
       System.out.println((i + 1) + ". " + facilities.get(i));
     }
@@ -45,13 +46,13 @@ public class Ticket {
     BusinessTicket businessTicket = new BusinessTicket(fare);
     FirstClassTicket firstClassTicket = new FirstClassTicket(fare);
 
-    System.out.println("Economy Ticket:");
+    System.out.println("- Economy Ticket -");
     economyTicket.printTicketDetails();
 
-    System.out.println("\nBusiness Ticket:");
+    System.out.println("\n- Business Ticket -");
     businessTicket.printTicketDetails();
 
-    System.out.println("\nFirst Class Ticket:");
+    System.out.println("\n- First Class Ticket -");
     firstClassTicket.printTicketDetails();
   }
 }
